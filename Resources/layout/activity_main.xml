@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/widget0"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent">
+ <Button
+ android:id="@+id/btnplus"
+ android:layout_width="50dp"
+ android:layout_height="wrap_content"
+ android:text="+"
+ android:layout_x="26dp"
+ android:layout_y="290dp"
+ android:background="@android:color/holo_red_dark"
+ android:textSize="20dip"
+ android:textColor="@android:color/holo_orange_dark" />
+ <Button
+ android:id="@+id/btnminus"
+ android:layout_width="50dp"
+ android:layout_height="wrap_content"
+ android:text="-"
+ android:layout_x="97dp"
+ android:layout_y="291dp" />
+ <Button
+ android:id="@+id/btnmul"
+ android:layout_width="50dp"
+ android:layout_height="wrap_content"
+ android:text="*"
+ android:layout_x="163dp"
+ android:layout_y="291dp" />
+ <Button
+ android:id="@+id/btnDivide"
+ android:layout_width="50dp"
+ android:layout_height="wrap_content"
+ android:text="/"
+ android:layout_x="231dp"
+ android:layout_y="290dp" />
+ <EditText
+ android:id="@+id/txtNum1"
+ android:layout_width="192dp"
+ android:layout_height="wrap_content"
+ android:textSize="18sp"
+ android:numeric="decimal"
+ android:layout_x="118dp"
+ android:layout_y="68dp" />
+ <EditText
+ android:id="@+id/txtNum2"
+ android:layout_width="194dp"
+ android:layout_height="wrap_content"
+ android:numeric="decimal"
+ android:textSize="18sp"
+ android:layout_x="116dp"
+ android:layout_y="146dp" />
+ <TextView
+ android:id="@+id/widget44"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="First Number"
+ android:layout_x="6dp"
+ android:layout_y="77dp" />
+ <TextView
+ android:id="@+id/widget45"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:text="Second Number"
+ android:layout_x="7dp"
+ android:layout_y="157dp" />
+</AbsoluteLayout>
